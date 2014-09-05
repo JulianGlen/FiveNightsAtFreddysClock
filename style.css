@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Bienvenu;
+    src: url(Bienvenu.ttf);
+}
+
+body {
+	background-color: black;
+}
+
+#clockLabel {
+	color: white;
+	
+	font-family: Bienvenu;
+	font-size: 128pt;
+	font-weight: bold;
+	
+	/* To center it */
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
