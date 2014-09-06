@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Bienvenu;
-    src: url(Bienvenu.ttf);
+    font-family: FNAF;
+    src: url(FNAF.ttf);
 }
 
 body {
@@ -10,14 +10,14 @@ body {
 #clockLabel {
 	color: white;
 	
-	font-family: Bienvenu;
+	font-family: FNAF;
 	font-size: 128pt;
 	font-weight: bold;
 	
 	/* To center it */
 	position: absolute;
 	left: 50%;
-    top: 50%;
-    margin-right: -50%;
+    	top: 50%;
+    	margin-right: -50%;
 	transform: translate(-50%, -50%);
 }
